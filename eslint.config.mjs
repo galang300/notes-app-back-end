@@ -5,6 +5,6 @@ import daStyle from 'eslint-config-dicodingacademy';
 
 export default defineConfig([
   daStyle,
-  { files: ['**/*.{js,mjs,cjs}'], plugins: { js }, extends: ['js/recommended'], languageOptions: { globals: globals.browser } },
+  { files: ['**/*.{js,mjs,cjs}'], plugins: { js }, extends: ['js/recommended'], languageOptions: { globals: globals.node } },
   { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },
 ]);
